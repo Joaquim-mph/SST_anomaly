@@ -1,0 +1,12 @@
+# Downloaded SSTA images (large, re-downloadable via download_ssta.sh)
+ssta_images/
+
+# Generated video (re-creatable via create_ssta_video.py)
+*.mp4
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

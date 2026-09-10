@@ -1,8 +1,16 @@
 # Downloaded SSTA images (large, re-downloadable via download_ssta.sh)
 ssta_images/
 
+# Downloaded SSTA NetCDF data (large, re-downloadable via download_ssta_nc.sh)
+ssta_data/
+
 # Generated video (re-creatable via create_ssta_video.py)
 *.mp4
+
+# Generated analysis outputs (re-creatable via analyze_ssta.py)
+ssta_daily_analysis.csv
+ssta_monthly_summary.csv
+ssta_analysis.png
 
 # macOS
 .DS_Store

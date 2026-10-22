@@ -5,7 +5,9 @@
 #
 # Each file is ~10 MB. Full 2025–2026 download is ~6 GB.
 
-BASE_URL="https://www.ncei.noaa.gov/data/oceans/crw/5km/v3.1/nc/v1.0/daily/ssta"
+# Override with BASE_URL=... if NCEI is down; NOAA STAR mirror:
+#   https://www.star.nesdis.noaa.gov/pub/socd/mecb/crw/data/5km/v3.1_op/nc/v1.0/daily/ssta
+BASE_URL="${BASE_URL:-https://www.ncei.noaa.gov/data/oceans/crw/5km/v3.1/nc/v1.0/daily/ssta}"
 OUT_DIR="/Users/mphstph/NOAA_coralreef/ssta_data"
 PARALLEL=10
 TODAY=$(date "+%Y-%m-%d")

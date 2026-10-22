@@ -2,7 +2,9 @@
 # Fast parallel download of NOAA CRW SSTA daily PNG images for 2025 and 2026
 # Re-run anytime to fetch newly available 2026 data — already-downloaded files are skipped.
 
-BASE_URL="https://www.ncei.noaa.gov/data/oceans/crw/5km/v3.1/image_browse/daily/ssta/png"
+# Override with BASE_URL=... if NCEI is down; NOAA STAR mirror:
+#   https://www.star.nesdis.noaa.gov/pub/socd/mecb/crw/data/5km/v3.1_op/image_browse/daily/ssta/png
+BASE_URL="${BASE_URL:-https://www.ncei.noaa.gov/data/oceans/crw/5km/v3.1/image_browse/daily/ssta/png}"
 OUT_DIR="/Users/mphstph/NOAA_coralreef/ssta_images"
 PARALLEL=10
 TODAY=$(date "+%Y-%m-%d")

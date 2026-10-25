@@ -18,3 +18,7 @@ ssta_analysis.png
 # Python
 __pycache__/
 *.pyc
+
+# ENSO index snapshots and forecast outputs (re-creatable via fetch_enso_indices.sh / forecast_peak.py)
+data/
+outputs/

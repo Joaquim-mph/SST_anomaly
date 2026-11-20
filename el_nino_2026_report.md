@@ -1,5 +1,37 @@
 # Is 2026 the Strongest El Niño in Decades? A Check Against NOAA Data
 
+## Update: observations through 18 November 2026
+
+Refreshed on 19 November local time (20 November UTC). The local CRW dataset now contains **687 consecutive daily files**, from 1 January 2025 through 18 November 2026, for both NetCDF data and browse images. NCEI supplied data through 13 November and the NOAA STAR mirror supplied 14–18 November; neither source supplied 19 November at refresh time. The CSV summaries, plot and timelapse have been regenerated.
+
+The eight CPC/PMEL index files are preserved in `data/raw/20261120/`, with source URLs, retrieval metadata, sizes and SHA-256 checksums in `MANIFEST.json`. All files passed checksum and parser checks. The previous `20261022` snapshot is retained.
+
+| Measure | Latest period | Anomaly (°C) |
+|---|---|---:|
+| CRW Niño 3.4, daily | 18 Nov 2026 | +3.42 |
+| CRW Niño 3, daily | 18 Nov 2026 | +4.72 |
+| CRW Niño 1+2, daily | 18 Nov 2026 | +6.24 |
+| CRW Niño 3.4, monthly mean | October 2026, complete | +3.26 |
+| CRW Niño 3.4, month-to-date mean | 1–18 November 2026, partial | +3.38 |
+| CPC OISST Niño 3.4, monthly | October 2026 | +3.25 |
+| CPC OISST Niño 3.4, weekly | Week centred 11 Nov 2026 | +3.20 |
+| CPC ONI | August–October 2026 | +2.46 |
+| CPC RONI | August–October 2026 | +1.97 |
+
+October's CPC monthly Niño 3.4 value is the highest in the downloaded OISST record since 1982. The latest weekly anomaly is below the 2026 weekly high of +3.4 °C on 28 October. CRW's daily Niño 3.4 reached +3.46 °C on 15 November before easing to +3.42 °C on 18 November. These series therefore show some recent easing, although the partial November CRW average remains above October's average.
+
+The August–October ONI is the highest for that season in the downloaded record since 1950, but remains below the all-season ONI record of +2.59 °C in November 2015–January 2016. August–October RONI ranks second for that season, behind 1997 (+2.07 °C). Comparisons use each product's own anomaly scale; the partial November average is not a completed monthly value.
+
+Sources: [NOAA CRW NCEI](https://www.ncei.noaa.gov/data/oceans/crw/5km/v3.1/nc/v1.0/daily/ssta/), [NOAA CRW STAR mirror](https://www.star.nesdis.noaa.gov/pub/socd/mecb/crw/data/5km/v3.1_op/nc/v1.0/daily/ssta/), [CPC monthly OISST](https://www.cpc.ncep.noaa.gov/data/indices/sstoi.indices), [CPC weekly OISST](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for), [CPC ONI](https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt), [CPC RONI](https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt).
+
+The forecast outputs still describe the original October initialization. The observations above do not constitute an updated November forecast.
+
+---
+
+## Archived assessment: 20 October 2026
+
+The original assessment below is retained with its original observation cutoff. Statements about continued growth and the event's future peak reflect that earlier snapshot; use the November update above for current observations.
+
 *Data through 20 October 2026*
 
 ## 1. Introduction
